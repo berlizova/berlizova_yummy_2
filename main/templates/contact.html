@@ -1,0 +1,46 @@
+<section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2></h2>
+          <p>{{ title_contacts|safe }}</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>{{ title_contacts_address }}</h3>
+                <p>{{ contact.address }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>{{ title_contact_email }}</h3>
+                <p>{{ contact.email }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>{{ title_contact_phone }}</h3>
+                <p>{{ contact.phone }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+                <div class="info-item d-flex align-items-center">
+                    <i class="icon bi bi-share flex-shrink-0"></i>
+                    <div>
+                        <h3>{{ title_contact_time }}</h3>
+                        <div>{{ contact.opening_hours }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
