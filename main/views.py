@@ -5,6 +5,12 @@ from .models import DishCategory, Gallery, Staff, Events, Contacts
 from .forms import ReservationForm
 from django.views.generic import TemplateView
 
+from django.contrib.auth.decorators import login_required, user_passes_test
+
+
+def is_manager(user):
+    return user.groups.filter(name='manager').exists()
+
 
 class IndexView(TemplateView):
     template_name = 'main.html'
@@ -46,6 +52,7 @@ class IndexView(TemplateView):
             return self.get(request, *args, **kwargs)
 
 
+@login_required(login_url='/login/')
+@user_passes_test(is_manager)
 def manager(request):
-    # Your manager view logic here
-    pass
+    return HttpResponse('Manager page')

@@ -1,3 +1,5 @@
+<!-- .navbar -->
+{% load is_manager_tag %}
  <nav id="navbar" class="navbar">
         <ul>
             <li><a href="#menu">Menu</a></li>
@@ -5,7 +7,9 @@
             <li><a href="#chefs">Chefs</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
-            
-            <li><a href="{% url 'manager' %}">Manager</a></li>
+            {% if request.user|is_manager_tag:'manager' %}
+                <li><a href="{% url 'manager' %}">Manager</a></li>
+            {% endif %}
         </ul>
- </nav><!-- .navbar -->
+ </nav>
+<!-- .navbar -->

@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.text import slugify
 from django.core.validators import RegexValidator
+from ckeditor.fields import RichTextField
 
 
 # Create your models here.
@@ -38,7 +39,7 @@ class Staff(models.Model):
     name = models.CharField(max_length=255)
     position = models.CharField(max_length=255)
     photo = models.ImageField(upload_to='staff_photo/', blank=True, null=True)
-    bio = models.TextField()  # field for staff biography
+    bio = RichTextField()  # field for staff biography
     is_visible = models.BooleanField(default=True)
 
     def __str__(self):
