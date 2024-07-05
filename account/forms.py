@@ -25,12 +25,13 @@ class LoginForm(forms.Form):
 
         return self.cleaned_data
 
-class RegisterForm(forms.ModelForm):
 
+class RegisterForm(forms.ModelForm):
     username = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}))
     email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Email'}))
     password1 = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Pass'}))
-    password2 = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Pass confirm'}))
+    password2 = forms.CharField(
+        widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Pass confirm'}))
 
     class Meta:
         model = User

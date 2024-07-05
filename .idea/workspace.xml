@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89f26fcf-7d93-46fa-87fa-1a26888f30db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/berlizova_yummy_2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/berlizova_yummy_2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -60,7 +49,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tebe/PyTEBE/django_Berlizova",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/tebe/PyTEBE/Yummy/berlizova_yummy_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,7 +104,13 @@
       <updated>1716289614081</updated>
       <workItem from="1716289617701" duration="21269000" />
       <workItem from="1717226885947" duration="21639000" />
-      <workItem from="1717838808931" duration="2759000" />
+      <workItem from="1717838808931" duration="11429000" />
+      <workItem from="1717858266034" duration="54000" />
+      <workItem from="1718454221613" duration="351000" />
+      <workItem from="1718456843997" duration="3628000" />
+      <workItem from="1718462973979" duration="3093000" />
+      <workItem from="1719065489469" duration="20000" />
+      <workItem from="1719126326030" duration="240000" />
     </task>
     <servers />
   </component>
